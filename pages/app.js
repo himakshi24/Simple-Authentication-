@@ -1,4 +1,7 @@
-import '../styles/app.module.css';
+
+import './page.modules.css'; 
+
+
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
